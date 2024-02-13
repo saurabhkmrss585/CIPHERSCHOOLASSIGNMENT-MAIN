@@ -1,0 +1,45 @@
+a{
+    text-decoration:none;
+    color:red;
+}
+
+/* Specificity
+id:100
+class:10
+tag:1 
+*/
+#header{
+background:skyblue;
+}
+
+
+header{
+    background:lightskyblue;
+    color:white;
+}
+
+
+.para{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:1px;
+    color:peru;
+}
+
+p{
+    text-decoration:underline;
+    color:royalblue;
+
+}
+.welcome{
+    background:green;
+
+}
+/* 100 */
+#header.welcome{
+    background:darkorchid;
+}
+
+header#header.welcome{
+    background:gray;
+    color:white;
+}
